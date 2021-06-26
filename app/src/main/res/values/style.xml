@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CostumChip" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="android:textColor">@color/costum_chip_color</item>
+        <item name="chipStrokeColor">@color/costum_chip_color</item>
+        <item name="chipStrokeWidth">2dp</item>
+        <item name="chipCornerRadius">8dp</item>
+        <item name="chipBackgroundColor">@color/black_ligth</item>
+    </style>
+
+    <style name="CostumRadioButton" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:textColor">@android:color/transparent</item>
+        <item name="android:layout_marginStart">12dp</item>
+    </style>
+
+    <style name="BottomSheetTheme" parent="Theme.MaterialComponents.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/BottomSheetStyle</item>
+    </style>
+
+    <style name="BottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/background_filter</item>
+    </style>
+
+    <style name="TextColor">
+        <item name="android:textColor">@color/text_blue</item>
+    </style>
+
+</resources>
